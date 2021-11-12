@@ -47,6 +47,32 @@
         }
     });
 
+    //Testimonials SLIDER ACTIVE CODE
+    $('.banner-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        responsiveClass: true,
+        autoplayTimeout: 4000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+
     
     // :: COUNTERUP ACTIVE CODE
     $('.counter').counterUp({

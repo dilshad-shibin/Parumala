@@ -76,16 +76,16 @@ a {
     width: 100%;
     position: relative;
     background: #fff;
-    height: 0px;
+    height: auto;
 }
 
-.headerin{
+/* .headerin{
     width: 100%;
     top: 0;
     left: 0;
     position: absolute;
     z-index: 100;
-}
+} */
 
 .menudiv{
     width: 100%;
@@ -444,13 +444,61 @@ a {
     top: 30px;
 }
 
-/* banner */
-.banner-slider{
+.mobile_menu_btn{
     position: relative;
-    background-image: url(../img/banner/banner.jpg);
+    right: inherit;
+    top: inherit;
+    padding-right: 10px;
+    margin-top: 2px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquiry-top{
+    display: flex;
+    align-items: center;
+}
+
+.appointment-btn a{
+    background: orange;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.emergency-btn a{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.enquiry-top .menu{
+    height: 96px;
+    background: orange;
+    display: flex;
+    align-items: center;
+}
+
+.enquiry-top .menu a{
+    padding: 0 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* banner */
+.banner-bg{
+    position: relative;
     background-size: cover;
     background-position: center;
     height: 760px;
+}
+
+.banner-bg1{
+    background-image: url(../img/banner/bnr.jpg);
 }
 
 .banner-ct{
@@ -495,6 +543,34 @@ a {
     letter-spacing: 3px;
 }
 
+.banner-slider .owl-nav{
+    position: absolute;
+    bottom: 100px;
+    left: 125px;
+}
+
+.banner-slider .owl-nav button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2e2a29 !important;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.banner-slider .owl-nav button span{
+    font-size: 40px;
+    color: #2e2a29;
+    line-height: 30px;
+}
+
+.banner-slider .owl-nav [class*=owl-]:hover {
+    background: #2e2a29 !important;
+    border: 1px solid #2e2a29 !important;
+}
+
+.banner-slider .owl-nav [class*=owl-]:hover span{
+    color: #fff;
+}
 /* About */
 
 
