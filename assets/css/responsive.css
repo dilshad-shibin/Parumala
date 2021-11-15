@@ -1,4 +1,20 @@
 /* responsive css */
+@media(max-width: 1440px){
+    .emergency-btn{
+        margin: 0 20px;
+    }
+    .enquiry-top .menu{
+        height: 87px;
+    }
+    .appointment-btn a{
+        font-size: 14px;
+    }
+    .enquiry-top .menu a{
+        padding: 0 15px;
+    }
+}
+
+
 @media(max-width:1199px){
     .logo_sec a img{
         max-width: 200px;
@@ -21,15 +37,37 @@
         -ms-flex-align: center;
         align-items: center;
     }
+    .emergency-btn{
+        display: none;
+    }
+    .enquiry-top .menu{
+        height: 96px;
+    }
+    .appointment-btn{
+        margin-right: 20px;
+    }
 }
 
 @media(max-width:1024px){
 }
 
 @media(max-width: 991px){
+    .logo-top{
+        display: flex;
+        align-items: center;
+    }
+    .header_outer {
+        height: auto;
+    }
+    .enquiry-top .menu{
+        height: 85px;
+    }
 }
 
 @media(max-width: 767px){
+    .appointment-btn{
+        display: none;
+    }
 }
 
 @media(max-width: 575px){
@@ -42,17 +80,11 @@
     .header_outer{
         height: 85px;
     }
-    .mobile_menu{
-        top: 25px;
-    }
     .header_outer{
         height: 75px;
     }
     .logo_sec{
         padding: 15px 15px 20px;
-    }
-    .mobile_menu {
-        top: 20px;
     }
     .apply_now{
         margin-right: 10px;
@@ -67,20 +99,30 @@
         transform: unset;
         bottom: -110px;
     }
-    .tt-menu-toggle{
-        width: 25px;
-    }
     .apply_now{
         padding: 7px 22px;
+    }
+    .enquiry-top .menu{
+        height: 75px;
+    }
+    .enquiry-top{
+        flex: 0 0 25%;
+        background: transparent;
+    }
+    .logo-top{
+        flex: 0 0 75%;
+    }
+    .enquiry-top .menu a.tt-menu-toggle{
+        display: none !important;
+    }
+    .enquiry-top .menu{
+        padding: 0 15px;
     }
 }
 
 @media(max-width:359px){
     .apply_now{
         display: none;
-    }
-    .mobile_menu {
-        top: 25px;
     }
     .tt-menu-toggle {
         width: 30px;

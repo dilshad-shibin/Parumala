@@ -1,9 +1,11 @@
 /* Custom css */
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* font-family: 'DM Sans', sans-serif; */
 
 body {
     color: #292828;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
@@ -39,7 +41,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #193d6f;
 }
 
@@ -48,7 +50,7 @@ h1{
 }
 
 p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     color: #303030;
 }
 
@@ -460,33 +462,84 @@ a {
 .enquiry-top{
     display: flex;
     align-items: center;
+    flex: 0 0 55%;
+    justify-content: flex-end;
+    background-color: #f3f5f5;
 }
 
 .appointment-btn a{
-    background: orange;
-    padding: 12px 20px;
+    padding: 15px 20px;
     color: #fff;
     border-radius: 8px;
+    background: rgb(254,90,1);
+    background: linear-gradient(
+    90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
-.emergency-btn a{
-    color: #000;
-    font-weight: 700;
-    font-size: 18px;
-    margin: 0 15px;
+.emergency-btn{
+    display: flex;
+    align-items: center;
+    margin:  0 25px;
+}
+
+.emergency-btn .icon{
+    background: rgb(254,90,1);
+    background: linear-gradient(
+    90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.emergency-btn .icon img{
+    max-width: 20px;
+}
+
+.emergency-btn .number{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.emergency-btn .number .no-name p{
+    margin-bottom: 0;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.emergency-btn .number .no-no a{
+    color: #353535;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .enquiry-top .menu{
-    height: 96px;
-    background: orange;
+    height: 93px;
     display: flex;
     align-items: center;
+    background: rgb(254,90,1);
+    background: linear-gradient(
+    90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
 }
 
-.enquiry-top .menu a{
+.enquiry-top .menu a.tt-menu-toggle{
     padding: 0 20px;
     color: #fff;
     font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.logo-top{
+    flex:  0 0 45%;
+    margin-right: 25px;
 }
 
 /* banner */
@@ -521,7 +574,6 @@ a {
 }
 
 .banner-btn a{
-    background: #eba24a;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -530,6 +582,9 @@ a {
     display: block;
     width: 45%;
     opacity: 0.9;
+    background: rgb(254,90,1);
+    background: linear-gradient(
+    90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
 }
 
 .banner-btn a:hover{

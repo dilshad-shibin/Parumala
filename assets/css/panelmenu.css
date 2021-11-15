@@ -14,7 +14,7 @@
   
       display: block; margin-bottom: 7px; 
   
-      width: 85%; height: 1px; background: #fff;
+      width: 85%; height: 2px; background: #fff;
   
         transition-delay: 0.3s !important ;
   
@@ -40,7 +40,7 @@
   
     cursor: pointer;  
   
-   width: 30px; height: 18px;}
+   width: 30px; height: 23px;}
   
     
   
