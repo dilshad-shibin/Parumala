@@ -215,23 +215,23 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     border-radius: 5px;
-    border: 1px solid #eba24a;
+    border: 1px solid rgb(254,90,1);
 }
 
 .header_social ul li a:hover{
-    border: 1px solid #eba24a;
-    background-color: #eba24a;
+    border: 1px solid rgb(254,90,1);
+    background-color: rgb(254,90,1);
     transition: all .3s ease;
 }
 
 .panel-menu ul li a:hover{
-    color: #eba24a !important;
+    color: rgb(254,90,1) !important;
 }
 
 .apply_now{
     margin-right: 20px;
     display: inline-block;
-    background: #eba24a;
+    background: rgb(254,90,1);
     padding: 7px 35px;
     color: #fff;
     font-weight: 500;
@@ -476,6 +476,12 @@ a {
     90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
     text-transform: uppercase;
     font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+
+.appointment-btn a:hover{
+    background: linear-gradient(
+        90deg, rgb(254 90 1 / 53%) 0%, rgb(254 90 1 / 98%) 35%, rgb(254 90 1 / 98%) 35%, rgb(254 90 1 / 88%) 100%);
 }
 
 .emergency-btn{
@@ -516,6 +522,12 @@ a {
     font-weight: 600;
     font-size: 20px;
     line-height: 20px;
+    transition: all .3s ease;
+}
+
+.emergency-btn .number .no-no a:hover{
+    color: rgb(254,90,1);
+    text-decoration: underline;
 }
 
 .enquiry-top .menu{
@@ -525,6 +537,12 @@ a {
     background: rgb(254,90,1);
     background: linear-gradient(
     90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
+    transition: all .2s ease-in-out;
+}
+
+.enquiry-top .menu:hover{
+    background: linear-gradient(
+        90deg, rgb(254 90 1 / 53%) 0%, rgb(254 90 1 / 98%) 35%, rgb(254 90 1 / 98%) 35%, rgb(254 90 1 / 88%) 100%);;
 }
 
 .enquiry-top .menu a.tt-menu-toggle{
@@ -547,7 +565,7 @@ a {
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 760px;
+    height: 800px;
 }
 
 .banner-bg1{
@@ -557,9 +575,10 @@ a {
 .banner-ct{
     position: absolute;
     display: flex;
-    flex-direction: column;
     height: 760px;
     justify-content: center;
+    flex-direction: column;
+    margin-top: -50px;
 }
 
 .banner-head{
@@ -569,8 +588,19 @@ a {
 
 .banner-head h1{
     color: #fff;
-    font-size: 70px;
-    letter-spacing: 2px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.banner-head p{
+    color: #fff;
+    font-size: 25px;
+}
+
+.banner-head h1 span{
+    color: #ff4e00;
 }
 
 .banner-btn a{
@@ -601,21 +631,23 @@ a {
 .banner-slider .owl-nav{
     position: absolute;
     bottom: 100px;
-    left: 125px;
+    left: 22%;
+    transform: translate(-50%,-50%);
 }
 
 .banner-slider .owl-nav button{
-    width: 40px;
-    height: 40px;
-    border: 1px solid #2e2a29 !important;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e8d8ca !important;
     border-radius: 50px;
     margin-right: 10px;
+    outline: none;
 }
 
 .banner-slider .owl-nav button span{
     font-size: 40px;
-    color: #2e2a29;
-    line-height: 30px;
+    color: #e8d8ca;
+    line-height: 35px;
 }
 
 .banner-slider .owl-nav [class*=owl-]:hover {
