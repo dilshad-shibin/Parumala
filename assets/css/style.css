@@ -658,7 +658,6 @@ a {
 .banner-slider .owl-nav [class*=owl-]:hover span{
     color: #fff;
 }
-/* About */
 
 
 /* panel menu */
@@ -726,4 +725,209 @@ a {
     .menu_secfixed .logo_sec {
         padding: 15px 15px 20px;
     }
+}
+
+/* Excellence Area */
+.excellence-area{
+    position: relative;
+    background-color: #fefaf5;
+    display: flex;
+}
+
+.excellence-left{
+    flex: 0 0 30%;
+    background-image: url(../img/excellence-left.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.exc-icons{
+    padding-left: 400px;
+    margin-bottom: 62px;
+    padding-right: 18%;
+}
+
+.exc-icons .icon{
+    margin-bottom: 15px;
+}
+
+.exc-icons .text h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.exc-icons .text h3 a{
+    color: #fff;
+    font-size: 26px;
+    transition: all .3s ease;
+}
+
+.exc-icons:hover .text h3 a{
+    color: #ff4e00;
+}
+
+.exc-icons:hover .bottom-icon a.hover-open{
+    display: block !important;
+}
+
+.exc-icons:hover .bottom-icon a.hover-none{
+    display: none;
+}
+
+.excellence-right{
+    flex: 0 0 60%;
+    padding: 80px;
+    overflow: hidden;
+}
+
+.exc-content-area .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.exc-content-area .header .head h3{
+    color: #535353;
+    position: relative;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.exc-content-area .header .head h3::before{
+    position: absolute;
+    content: "";
+    height: 5px;
+    border-radius: 10px;
+    width: 20%;
+    left: 0;
+    bottom: -18px;
+    background: linear-gradient(
+        90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
+}
+
+.centres-listing .single-centre .centre-box{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    padding: 30px;
+    margin-bottom: 20px;
+    min-height: 325px;
+    transition: all .3s ease;
+}
+
+.single-centre .centre-box .btm-icon{
+    float: right;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.single-centre .centre-box .btm-icon img{
+    width: auto;
+}
+
+.single-centre .icon{
+    margin-bottom: 12px;
+}
+
+.single-centre .head h4{
+    color: #4d4d4d;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.single-centre .text p{
+    color: #4d4d4d;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.single-centre .centre-box{
+    position: relative;
+}
+
+.single-centre .centre-box .text{
+    min-height: 130px;
+}
+
+.single-centre .centre-box .icon img{
+    width: auto;
+}
+
+.centres-listing .single-centre .centre-box:hover {
+    background: #fe5a01;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.30);
+}
+
+.centres-listing .single-centre .centre-box:hover .icon img.hover-block{
+    display: block !important;
+}
+
+.centres-listing .single-centre .centre-box:hover .icon img.hover-none{
+    display: none;
+}
+
+.centres-listing .single-centre .centre-box:hover .btm-icon img.hover-block{
+    display: block !important;
+}
+
+.centres-listing .single-centre .centre-box:hover .btm-icon img.hover-none{
+    display: none;
+}
+
+.centres-listing .single-centre .centre-box:hover .head h4{
+    color: #fff;
+}
+
+.centres-listing .single-centre .centre-box:hover .text p{
+    color: #fff;
+}
+
+.centres-listing .owl-nav{
+    position: relative;
+    top: 30px;
+}
+
+.centres-listing .owl-nav button {
+    width: 55px;
+    height: 55px;
+    border: 1px solid #c0b4a4 !important; 
+    transition: all .3s ease;
+    margin-right: 10px;
+    outline: none !important;
+}
+
+.centres-listing .owl-nav button svg{
+    font-size: 35px;
+    line-height: 40px;
+    color: #c0b4a4;
+}
+
+.centres-listing .owl-nav [class*=owl-]:hover {
+    background: rgb(254,90,1);
+    border: 1px solid rgb(254,90,1) !important;
+}
+
+.centres-listing .owl-nav [class*=owl-]:hover svg{
+    color: #fff;
+}
+
+.exc-content-area .view-btn a{
+    text-transform: uppercase;
+    color: rgb(254,90,1);
+    transition: all .3s ease;
+}
+
+.exc-content-area .view-btn a:hover{
+    color: rgb(207 87 22);
+    letter-spacing: .8px;
 }
