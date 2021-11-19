@@ -12,6 +12,9 @@
     .enquiry-top .menu a{
         padding: 0 15px;
     }
+    .banner-slider .owl-nav{
+        left: 15%;
+    }
 }
 
 
@@ -46,9 +49,38 @@
     .appointment-btn{
         margin-right: 20px;
     }
-}
-
-@media(max-width:1024px){
+    .banner-slider .owl-nav{
+        left: 15%;
+    }
+    .logo-top{
+        display: flex;
+        align-items: center;
+    }
+    .excellence-area{
+        flex-direction: column;
+    }
+    .excellence-left{
+        flex: 0 0 100%;
+        align-items: center;
+        padding: 50px 0;
+    }
+    .exc-icons{
+        padding: 0;
+        max-width: 500px;
+    }
+    .excellence-right{
+        flex: 0 0 100%;
+    }
+    .centres-listing{
+        display: flex;
+        flex-direction: column;
+    }
+    .hh-counter .counter-box{
+        align-items: center;
+    }
+    .hh-counter .counter-box p{
+        line-height: 1.2;
+    }
 }
 
 @media(max-width: 991px){
@@ -67,6 +99,45 @@
 @media(max-width: 767px){
     .appointment-btn{
         display: none;
+    }
+    .banner-head h1{
+        font-size: 48px;
+    }
+    .banner-ct,
+    .banner-bg{
+        height: 500px;
+    }
+    .banner-slider .owl-nav{
+        left: 23%;
+        bottom: 70px;
+    }
+    .centres-listing .single-centre .centre-box{
+        min-height: 350px;
+    }
+    .hh-head h1{
+        font-size: 33px;
+    }
+    .hh-counter{
+        flex-wrap: wrap;
+    }
+    .hh-counter .counter-box{
+        flex: 0 0 50%;
+    }
+    .single-speciality{
+        flex-wrap: wrap;
+    }
+    .single-speciality .main-box{
+        flex: 0 0 50%;
+    }
+    .single-speciality .main-box:last-child{
+        flex: 0 0 100%;
+        flex-direction: row;
+    }
+    .single-speciality .main-box:last-child .speciality-box{
+        width: 50%;
+    }
+    .enquiry-top .menu{
+        height: 95px;
     }
 }
 
@@ -91,14 +162,14 @@
         padding: 7px 29px;
         font-size: 12px;
     }
-    .view-btn{
+    /* .view-btn{
         width: 100%;
         display: flex;
         justify-content: center;
         left: unset;
         transform: unset;
         bottom: -110px;
-    }
+    } */
     .apply_now{
         padding: 7px 22px;
     }
@@ -118,6 +189,98 @@
     .enquiry-top .menu{
         padding: 0 15px;
     }
+    .banner-head h1{
+        font-size: 40px;
+    }
+    .banner-head p{
+        font-size: 18px;
+    }
+    .banner-ct, .banner-bg {
+        height: 370px;
+    }
+    .banner-slider .owl-nav{
+        bottom: 20px;
+    }
+    .banner-slider .owl-nav button{
+        width: 40px;
+        height: 40px;
+    }
+    .banner-overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #28a74561;
+        opacity: 0.8;
+    }
+    .excellence-left{
+        padding: 50px 15px;
+    }
+    .exc-icons{
+        text-align: center;
+    }
+    .exc-icons .text h3 a{
+        font-size: 22px;
+    }
+    .excellence-right{
+        padding: 65px 20px;
+    }
+    .exc-content-area .header .head h3{
+        font-size: 22px;
+    }
+    .exc-content-area .header .head{
+        flex: 0 0 50%;
+    }
+    .hh-head p{
+        font-size: 18px;
+    }
+    .hh-head h1{
+        font-size: 24px;
+    }
+    .hh-counter .counter-box h2{
+        font-size: 40px;
+    }
+    .hh-counter .counter-box p{
+        font-size: 15px;
+    }
+    .hh-counter .counter-box.counter-last{
+        padding: 20px;
+    }
+    .counter-inner .icon a{
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+    }
+    .counter-inner .text h1{
+        font-size: 25px;
+    }
+    .counter-inner .text h4{
+        font-size: 10px;
+    }
+    .speciality-head .head h1{
+        font-size: 28px;
+    }
+    .speciality-head .head{
+        flex: 0 0 50%;
+    }
+    .single-speciality .main-box{
+        flex: 0 0 100%;
+        flex-direction: row;
+    }
+    .speciality-box{
+        width: 50%;
+    }
+    .speciality-box .name h3{
+        font-size: 12px;
+    }
+    .spc-bx-hover{
+        padding: 10px;
+    }
+    .spc-bx-hover p{
+        font-size: 12px;
+    }
+
 }
 
 @media(max-width:359px){
