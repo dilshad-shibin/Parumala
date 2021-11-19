@@ -1196,3 +1196,8 @@ a {
     transform: translateY(0);
 }
 
+/* Team Area */
+.team-area{
+    padding: 100px 0;
+}
+
