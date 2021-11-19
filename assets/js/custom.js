@@ -104,7 +104,7 @@
     // :: COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,
-        time: 1000
+        time: 2000
     });
 
     // :: AOS ACTIVE CODE
