@@ -97,6 +97,9 @@
     .blog-box{
         margin-bottom: 30px;
     }
+    .address-area{
+        border-left: none;
+    }
 }
 
 @media(max-width: 767px){
@@ -295,6 +298,41 @@
     }
     .speciality-head.news-head .head h1{
         font-size: 20px;
+    }
+    .footer-main-list{
+        flex-direction: column;
+    }
+    .footer-list-one{
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+    .footer-list-two{
+        flex: 0 0 100%;
+    }
+    .footer-address, .footer-number, .footer-email{
+        padding: 15px 0;
+    }
+    .footer-number .numbers a{
+        font-size: 18px;
+    }
+    .number-head h2, .email-head h2{
+        font-size: 20px;
+    }
+    .appointment-box .text h3{
+        font-size: 18px;
+    }
+    .emergency-box .text{
+        margin-left: 0;
+    }
+    .emergency-box .icon{
+        padding-left: 25px;
+        justify-content: inherit;
+    }
+    .emergency-box .text .number a{
+        font-size: 22px;
+    }
+    .copy-right{
+        text-align: center;
     }
 
 }

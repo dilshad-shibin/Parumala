@@ -1473,3 +1473,211 @@ a {
     color: #cb660f;
     letter-spacing: 2px;
 }
+
+/* Appointment and Emergency Area */
+.emergency-area{
+    /* background: #fefaf5; */
+    position: relative;
+    z-index: 10;
+    margin-top: -50px;
+}
+
+.appointment-box{
+    background: linear-gradient(
+        90deg, rgba(254,90,1,1) 0%, rgba(254,90,1,1) 35%, rgba(254,90,1,1) 35%, rgba(254,90,1,0.6502976190476191) 100%);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+}
+
+.appointment-box .icon{
+    flex: 0 0 20%;
+    border-right: 1px solid #fff;
+    padding-left: 20px;
+}
+
+.appointment-box .text{
+    flex: 0 0 80%;
+    text-align: center;
+}
+
+.appointment-box .text h3{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.emergency-box{
+    display: flex;
+    align-items: center;
+    background: #ede4d9;
+    padding: 20px;
+    height: 100px;
+}
+
+.emergency-box .icon{
+    flex: 0 0 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.emergency-box .text{
+    flex: 0 0 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.emergency-box .text .head h3{
+    color: #353535;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 3px;
+    line-height: 0;
+}
+
+.emergency-box .text .number a{
+    color: #353535;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin: 0;
+    transition: all .3s ease-in-out;
+}
+
+.emergency-box .text .number a:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer-bg{
+    background: #1c1d2e;
+    padding: 50px 0 0px;
+    margin-top: -50px;
+}
+
+.footer-main-list{
+    display: flex;
+    padding: 70px 0 35px;
+}
+
+.footer-list-one{
+    flex: 0 0 40%;
+}
+
+.footer-list-two{
+    flex: 0 0 60%;
+}
+
+.list-boxes{
+    display: flex;
+}
+
+.address-area{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #c1c2d1;
+}
+
+.copy-right{
+    padding: 20px 0;
+    border-top: 1px solid #c1c2d1;
+}
+
+.copy-right p,
+.copy-right p a{
+    color: #c1c2d1;
+}
+
+.copy-right a img{
+    max-width: 100px;
+}
+
+.list-head h3{
+    color: #c1c2d1;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.list-items li a{
+    color: #c1c2d1ba;
+    font-size: 14px;
+    transition: all .4s ease-in-out;
+}
+
+.list-items li a:hover{
+    color: #ff850a;
+    text-decoration: underline;
+}
+
+.list-items li{
+    line-height: 1.5;
+}
+
+.list-items2{
+    padding-left: 50px;
+}
+
+.footer-address,
+.footer-number,
+.footer-email{
+    padding: 40px 30px;
+    border-bottom: 1px solid #c1c2d1;
+}
+
+.footer-address{
+    padding-top: 65px;
+}
+
+.footer-email{
+    border-bottom: none;
+    padding-bottom: 110px;
+}
+
+.adr-head h5{
+    color: #c1c2d1;
+}
+
+.adr-head p{
+    color: #c1c2d1ba;
+    font-size: 15px;
+}
+
+.number-head h2,
+.email-head h2{
+    color: #ff850a;
+    font-size: 25px;
+}
+
+.footer-number .numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-number .numbers a{
+    color: #ede4d9;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    transition: all .3s ease;
+}
+
+.footer-number .numbers a:hover{
+    text-decoration: underline;
+}
+
+.footer-email .em a{
+    color: #ede4d9;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.footer-email .em a:hover{
+    color: #ff850a;
+}
