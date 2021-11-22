@@ -1198,6 +1198,95 @@ a {
 
 /* Team Area */
 .team-area{
-    padding: 100px 0;
+    padding: 100px 0 110px;
 }
 
+.single-team{
+    background-color: #f7f1eb;
+    min-height: 450px;
+    transition: all .4s ease;
+    overflow: hidden;
+}
+
+.team-details{
+    padding: 20px 20px 15px;
+}
+
+.team-details h3{
+    color: #535353;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.team-details p{
+    color: rgb(254,90,1);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.team-img{
+    overflow: hidden;
+    position: relative;
+}
+
+.team-img img{
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+    overflow: hidden;
+    position: relative;
+}
+
+.team-img:before{
+    position: absolute;
+    content: "";
+    display: block;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .4s;
+    opacity: 0;
+}
+
+.single-team:hover .team-img img{
+    transform: scale(1.1);
+    position: relative;
+}
+
+.single-team:hover .team-img::before{
+    opacity: 1;
+}
+
+.team-slider .owl-nav{
+    position: relative;
+    top: 35px;
+}
+
+.team-slider .owl-nav button {
+    width: 55px;
+    height: 55px;
+    border: 1px solid #c0b4a4 !important;
+    transition: all .3s ease;
+    margin-right: 10px;
+    outline: none !important;
+}
+
+.team-slider .owl-nav button svg {
+    font-size: 28px;
+    line-height: 40px;
+    color: #c0b4a4;
+}
+
+.team-slider .owl-nav [class*=owl-]:hover {
+    background: rgb(254,90,1);
+    border: 1px solid rgb(254,90,1) !important;
+}
+
+.team-slider .owl-nav [class*=owl-]:hover svg{
+    color: #fff;
+}
