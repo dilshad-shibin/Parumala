@@ -94,6 +94,9 @@
     .enquiry-top .menu{
         height: 85px;
     }
+    .blog-box{
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 767px){
@@ -279,6 +282,19 @@
     }
     .spc-bx-hover p{
         font-size: 12px;
+    }
+    .service-img img{
+        width: 350px;
+    }
+    .single-testi .testi-content .text p{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .single-testi .img-details{
+        margin-bottom: 25px;
+    }
+    .speciality-head.news-head .head h1{
+        font-size: 20px;
     }
 
 }
